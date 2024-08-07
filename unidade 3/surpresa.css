@@ -1,0 +1,79 @@
+body{
+    background: #DFDCE3;
+}
+
+body > div{
+    width: 300px;
+    height: 150px;
+    margin: 50px 60px;
+    float: left;
+    background:tomato;
+    font-weight: 800;
+    font-size: 35px;
+    color: peachpuff;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    text-align: center;
+    
+}
+
+p{
+    margin-left: 10px;
+}
+
+.surpresa1{
+    opacity: 0.5;
+}
+
+.surpresa1:hover{
+    opacity: 1;
+}
+
+.surpresa2:hover{
+    background: crimson;
+
+}
+
+.surpresa3:hover{
+    transform: scale(3,1);
+}
+
+.surpresa4:hover{
+    transform: scale(0,7);
+}
+
+.surpresa7{
+    box-shadow: 1px 1px Firebrick;
+    box-shadow: 2px 2px Firebrick;
+    box-shadow: 3px 3px Firebrick;
+    box-shadow: 4px 4px Firebrick;
+    box-shadow: 5px 5px Firebrick;
+    box-shadow: 6px 6px Firebrick;
+    box-shadow: 2px 2px Firebrick;
+    transform: translateX() ;
+}
+
+.surpresa8:hover{
+    background-color: crimson;
+}
+
+.surpresa9:hover{
+    background-color: crimson;
+    transition: all 2s;
+    transform: scaleX(1.5);
+}
+
+.surpresa10:hover{
+    animation: swing 1s car;
+    animation-iteration-count: 1;
+
+}
+@keyframes swing{
+    15%{transform: translateX(7px);}
+    30%{transform: translateX(-7px);}
+    50%{transform: translateX(3px);}
+    65%{transform: translateX(-3px);}
+    80%{transform: translateX(2px);}
+    100%{transform: translateX(0px);}
+
+}
